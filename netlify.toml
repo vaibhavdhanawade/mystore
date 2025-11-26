@@ -1,8 +1,6 @@
 [build]
-command = "npm run build"
-publish = "build"
-functions = "netlify/functions"
+  command = "npm run build"
+  publish = "dist"
 
-
-[dev]
-functions = "netlify/functions"
+[functions]
+  directory = "netlify/functions"
